@@ -335,8 +335,8 @@ class DatasetMaker:
 
 if __name__ == "__main__":
     # Hardcoded input and output paths using raw strings
-    input_dir = r"D:\Ope Watson\Project\AudioProcessing\input_files"
-    output_dir = r"D:\Ope Watson\Project\AudioProcessing"
+    input_dir = "/content/drive/MyDrive/input_files"
+    output_dir = "/content/drive/MyDrive/output"
 
     maker = DatasetMaker()
     maker.process(input_dir, output_dir)
