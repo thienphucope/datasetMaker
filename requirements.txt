@@ -1,5 +1,5 @@
 pandas>=2.0.0
-numpy>=1.26.4
+numpy==1.26.4
 pydub>=0.25.1
 openai-whisper>=2023.6
 moviepy>=1.0.3
